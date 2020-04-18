@@ -48,7 +48,7 @@ public class PruebaArchivo {
 					bw.newLine();
 					bw.write("Maximo:" + Double.toString(max));
 					bw.newLine();
-					bw.write("Promedio:" + Double.toString(sum/cant));
+					bw.write("Promedio:" + Double.toString(sum/cant));//setear la salida
 					bw.newLine();
 					bw.newLine();
 					Arrays.sort(vec);//ordena
