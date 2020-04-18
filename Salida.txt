@@ -1,0 +1,10 @@
+Minimo:-4.67
+Maximo:3.8
+Promedio:1.5050000000000001
+
+Vector ordenado:-4.67
+Vector ordenado:1.0
+Vector ordenado:1.6
+Vector ordenado:3.6
+Vector ordenado:3.7
+Vector ordenado:3.8
