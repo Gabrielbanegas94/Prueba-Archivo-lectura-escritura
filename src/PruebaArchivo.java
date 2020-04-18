@@ -36,8 +36,7 @@ public class PruebaArchivo {
 
 						sum += vec[i];
 					}///realiza las comprobaciones
-				  	
-					System.out.println("el promedio es: "+ (sum/cant));
+				  	System.out.printf("el promedio es: %.2f \n",(sum/cant));
 					System.out.println("el maximo es: " + max);
 					System.out.println("el minimo es: "+ min);
 					System.out.println("-----el array ordenado queda-----");
@@ -48,7 +47,9 @@ public class PruebaArchivo {
 					bw.newLine();
 					bw.write("Maximo:" + Double.toString(max));
 					bw.newLine();
-					bw.write("Promedio:" + Double.toString(sum/cant));//setear la salida
+					double prom = sum/cant;
+					Double.toString(prom);
+					bw.write("Promedio:" + String.format("%.2f",  prom ));//setear la salida
 					bw.newLine();
 					bw.newLine();
 					Arrays.sort(vec);//ordena
